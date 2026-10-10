@@ -1,14 +1,21 @@
-capitals = {"USA":"Washington D.C.", "India": "New Delhi", 
-"China": "Beijing", "Russia": "Moscow"}
-# print(f"Original Dictionary: {capitals}")
+#Understanding / working with Python Dictionaries
 
-capitals.update({"Germany": "Berlin"})
+# capitals = {"USA":"Washington D.C.", "India": "New Delhi", 
+# "China": "Beijing", "Russia": "Moscow"}
+# # print(f"Original Dictionary: {capitals}")
 
-#print(capitals.items())
+# capitals.update({"Germany": "Berlin"})
 
-for key, value in capitals.items():
-    print(key, value)
+# #print(capitals.items())
 
-#del capitals['USA']
+# for key, value in capitals.items():
+#     print(key, value)
 
-
+# #del capitals['USA']
+print("=======================================")
+ 
+ #Understanding / working with Python List
+fruits = ["apple", "Orange", "banana", "coconut"]
+#print(fruits[4])
+for fruit in fruits:
+    print(fruit)
